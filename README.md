@@ -43,3 +43,18 @@ python train.py
 python train.py --gcn_bool=True
 ```
 In addition for adding the dynamic weights add --temporal_memory=1.
+
+## Citation
+
+If you find this repository useful in your research, please cite the following paper:
+
+```
+@inproceedings{cirstea2021enhancenet,
+  title={EnhanceNet: Plugin Neural Networks for Enhancing Correlated Time Series Forecasting},
+  author={Cirstea, Razvan-Gabriel and Kieu, Tung and Guo, Chenjuan and Yang, Bin and Pan, Sinno Jialin},
+  booktitle={2021 IEEE 37th International Conference on Data Engineering (ICDE)},
+  pages={1739--1750},
+  year={2021},
+  organization={IEEE}
+}
+```
